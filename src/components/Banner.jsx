@@ -10,7 +10,7 @@ const Banner = () => {
     <Container>
     <div className="lg:flex lg:pt-[200px] pb-[50px] lg:mx-0 mx-[20px] py-[30px]">
     <div className="lg:w-[30%] w-full">
-    <div className=" lg:items-center items-start  lg:block flex justify-between lg:pt-0 pt-[300px] mt-[50px]">
+    <div className=" lg:items-center items-start  lg:block flex justify-between lg:pt-0 pt-[270px] lg:mt-0 mt-[35px]">
 
 <div className="lg:w-[10%] w-[15%]">
     <h2 className='lg:text-[36px] text-[22px] text-[#fff] font-natsreguler lg:text-start text-center '>60</h2>
