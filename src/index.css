@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    list-style: none;
+}
+@font-face {
+    font-family:nantes-lite ;
+    src: url(./assets/fonts/nantes/Nantes-Light.ttf);
+}
+@font-face {
+    font-family:nantes-reguler ;
+    src: url(./assets/fonts/nantes/Nantes-Regular.ttf);
+}
+@font-face {
+    font-family:nantes-bold ;
+    src: url(./assets/fonts/nantes/Nantes-Bold.ttf);
+}
+
+
+@font-face {
+    font-family:messina-black ;
+    src: url(./assets/fonts/messina/MessinaSans-Black.ttf);
+}
+@font-face {
+    font-family:messina-bold ;
+    src: url(./assets/fonts/messina/MessinaSans-Bold.ttf);
+}
+@font-face {
+    font-family:messina-book ;
+    src: url(./assets/fonts/messina/MessinaSans-Book.ttf);
+}
+
+@font-face {
+    font-family:messina-semibold ;
+    src: url(./assets/fonts/messina/MessinaSans-SemiBold.ttf);
+}
+@font-face {
+    font-family:messina-reguler ;
+    src: url(./assets/fonts/messina/MessinaSans-Regular.ttf);
+}
+@font-face {
+    font-family:neue ;
+    src: url(./assets/fonts/neue/NeueHaasUnica-Regular.ttf);
+}
+
+:root{
+    --natslite:nantes-lite;
+    --natsreguler:nantes-reguler;
+    --natsbold:nantes-bold;
+
+
+
+    --messinablack:messina-black;
+    --messinabold:messina-bold;
+    --messinabook:messina-book;
+    --messinareguler:messina-reguler;
+    --messinasemibold:messina-semibold;
+    --neue:neue;
+}
+
+
+.recharts-layer tspan{
+    font-size: 10px;
+}
+html {
+    scroll-behavior: smooth !important;
+  }
+.scroll-to-top svg{
+    margin: 0 auto; 
+  }
