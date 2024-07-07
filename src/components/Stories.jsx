@@ -6,10 +6,10 @@ import storiesimg2 from "../assets/stories2.png"
 
 const Stories = () => {
   return (
-    <div id='stories' className="bg-[#F5F5F5]">
+    <div id='stories' className="bg-[#F5F5F5] pt-[50px] lg:pt-0">
 
 <Container>
-        <div className="lg:w-[1180px] mx-auto">
+        <div className="lg:w-[1180px]  lg:mx-auto mx-[10px]" >
         <div className="lg:pt-[193px] pt-[100px]">
             <div className="">
                 <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>Stories & Ideas</h2>
