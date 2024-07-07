@@ -90,7 +90,7 @@ const Graph = () => {
                   </div>
                 </div>
 
-                    <div className="lg:flex lg:pt-[32px] pt-[80px] pb-[21px]">
+                    <div className="lg:flex lg:pt-[32px] pt-[80px] pb-[21px] ">
                         <div className=" flex">
                         <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px]">
                           <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
@@ -116,7 +116,33 @@ const Graph = () => {
                         </div>
                         </div>
 
-                        <div className="flex lg:pt-0 pt-[20px]">
+
+                        <div className=" flex lg:pt-0 pt-[20px]">
+                        <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px]">
+                          <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
+                            <div className="w-[30%] pr-[40px] ">
+                              <h3 className='lg:text-[30px] text-[16px] text-[#7CA63A] font-natsreguler'>+66.2%</h3>
+                            </div>
+                            <div className="w-[29%]">
+                              <h4 className='lg:text-[12px] text-[8px] font-messinareguler text-[#191618] lg:leading-[120%] lg:border-r-[5px] border-r-[2px] border-[#7CA63A] ' >WPPOOL Index</h4>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px] lg:mx-[20px] mx-[10px]">
+                          <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
+                            <div className="w-[30%] pr-[40px] ">
+                              <h3 className='lg:text-[30px] text-[16px] text-[#6F34A1] font-natsreguler'>+26.6%</h3>
+                            </div>
+                            <div className="w-[29%]">
+                              <h4 className='lg:text-[12px] text-[8px] font-messinareguler text-[#191618] lg;leading-[120%] lg:border-r-[5px] border-r-[2px] border-[#6F34A1] ' >WPPOOL Index</h4>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+
+                        {/* <div className="flex lg:pt-0 pt-[20px]">
                         <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px]">
                           <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
                             <div className="w-[30%] pr-[40px] ">
@@ -139,7 +165,7 @@ const Graph = () => {
                             </div>
                           </div>
                         </div>
-                        </div>
+                        </div> */}
                     </div>
 
 
@@ -166,9 +192,7 @@ const Graph = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="w-[232px] border-[1px] rounded-[12px] bg-[#ededed] mr-[10px] ">
-                    
-                </div> */}
+                
                 </div>
 
                 <div className="lg:ml-[-85px]">

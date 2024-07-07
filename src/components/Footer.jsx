@@ -5,7 +5,7 @@ import { FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div id='footer' className='bg-[#E6E6E6] pt-[58px]'>
+        <div id='footer' className='bg-[#E6E6E6] pt-[58px] mx-[10px] lg:mx-0'>
             <Container>
                 <div className="lg:w-[1180px] lg:mx-auto ">
                     <div className="lg:flex">
@@ -22,7 +22,7 @@ const Footer = () => {
                                 </div>
                                 <div className="">
                                     <li className='text-[20px] lg:w-[84px] text-[#115CD9] pt-[16px] font-neue'><a href="#inedx">About Us</a></li>
-                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">Portfolio</a></li>
+                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="#portfolio">Portfolio</a></li>
                                     <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">News</a></li>
                                     <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">Stories</a></li>
                                     <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="#stories">Jobs</a></li>
