@@ -8,9 +8,9 @@ const Banner = () => {
 
 <div className="bg-[#2042B6] lg:pt-0 pt-[100px] overflow-hidden ">
     <Container>
-    <div className="lg:flex lg:pt-[200px] lg:mx-0 mx-[20px] py-[30px]">
+    <div className="lg:flex lg:pt-[200px] pb-[50px] lg:mx-0 mx-[20px] py-[30px]">
     <div className="lg:w-[30%] w-full">
-    <div className=" lg:items-center items-start  lg:block flex justify-between lg:pt-0 pt-[250px]">
+    <div className=" lg:items-center items-start  lg:block flex justify-between lg:pt-0 pt-[300px] mt-[50px]">
 
 <div className="lg:w-[10%] w-[15%]">
     <h2 className='lg:text-[36px] text-[22px] text-[#fff] font-natsreguler lg:text-start text-center '>60</h2>
@@ -34,8 +34,8 @@ const Banner = () => {
     
     <div className="lg:w-[70%] w-full">
     <div className=" flex justify-center lg:relative">
-    <div className="lg:flex lg:justify-center lg:items-center absolute lg:top-0 md:top-0 top-[110px] left-0  lg:mr-[190px] lg:mt-[-150px]">
-            <img src={img} className='lg:w-full w-[80%] lg:mx-0 mx-auto overflow-hidden'  alt="" />
+    <div className="absolute lg:top-[-80px] top-[120px] lg:ml-0 lg:left-0 left-[30px]">
+            <img src={img} className='lg:w-full w-[70%] ml-[30px] lg:ml-0 '  alt="" />
         </div>
         
         <div className=" absolute lg:top-0 top-[110px] left-0 flex justify-center items-center  lg:mr-[185px] lg:mt-[-110px]">
