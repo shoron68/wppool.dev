@@ -51,9 +51,9 @@ const StateOfUsa = () => {
               <option value='2021'>2021</option>
             </select>
           </div>
-          <div className='absolute lg:right-[00px] lg:bottom-[40%] bottom-[-40px] lg:left-[0px] left-[70px]  lg:translate-y-[49%]  items-center '>
+          {/* <div className='absolute lg:right-[00px] lg:bottom-[40%] bottom-[-40px] lg:left-[0px] left-[70px]  lg:translate-y-[49%]  items-center '>
             <img src={bgimg} className=' ml-[600px] w-[70%] lg:w-[50%]' alt='' />
-          </div>
+          </div> */}
 
           <div className='pt-[61px] relative'>
             <Slider {...settings}>

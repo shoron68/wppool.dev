@@ -70,10 +70,10 @@ const SelectedPortfolio = () => {
                         
                         <div className="flex lg:justify-start justify-center lg:pt-0 pt-[20px]">
                         <div className="lg:w-[220px] w-[200px] mr-[20px] lg:h-[120px] h-[80px] bg-[#fff] rounded-[8px] flex justify-center items-center">
-                                <img className=' ' src={img6} alt="" />
+                                <img className='lg:w-[70%] w-[80%] ' src={img6} alt="" />
                         </div>
-                        <div className="lg:w-[220px] w-[200px] lg:h-[120px] h-[80px] bg-[#fff] rounded-[8px] flex justify-center items-center">
-                                <img className=' ' src={img6} alt="" />
+                        <div className="lg:w-[220px] w-[200px]  lg:h-[120px] h-[80px] bg-[#fff] rounded-[8px] flex justify-center items-center">
+                                <img className=' lg:w-[70%] w-[80%]' src={img6} alt="" />
                         </div>
                         </div>
 
