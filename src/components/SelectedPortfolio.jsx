@@ -21,9 +21,9 @@ import img17 from "../assets/portfolio16.png"
 
 const SelectedPortfolio = () => {
   return (
-    <div id='portfolio' className='bg-[#F5F5F5] lg:pt-[126px] pt-[50px] lg:mx-0 mx-[10px] pb-[58px]'>
+    <div id='portfolio' className='bg-[#F5F5F5] lg:pt-[126px] pt-[50px]   pb-[58px]'>
         <Container>
-            <div className="lg:w-[1180px] lg:mx-auto">
+            <div className="lg:w-[1180px] lg:mx-auto mx-[10px]">
                 <div className="">
                     <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>Selected WPPOOL Portfolio Companies</h2>
                 </div>

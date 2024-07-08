@@ -39,21 +39,21 @@ const StateOfUsa = () => {
   }
 
   return (
-    <div id='state' className='bg-[#F5F5F5] lg:mx-0 mx-[10px]'>
+    <div id='state' className='bg-[#F5F5F5] '>
       <Container>
         
-        <div className='relative'>
+        <div className='relative lg:mx-0 mx-[10px]'>
           <div className='lg:pl-[32px] pl-[5px]'>
             <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>State of USA</h2>
-            <div class="relative inline-block pb-[35px] ">
-                        <select name="2024" class=" drop_a_c_year lg:text-[40px] text-[24px] lg:h-[58px] h-[40px] w-[150px] lg:w-[200px] lg:leading-[42px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-natsreguler ">
+            <div className="relative inline-block pb-[35px] ">
+                        <select name="2024" className=" drop_a_c_year lg:text-[40px] text-[24px] lg:h-[58px] h-[40px] w-[150px] lg:w-[200px] lg:leading-[42px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-natsreguler ">
                         <option value="2023">2023 </option>
                           <option value="2022">2022</option>
                           <option value="2021">2021 </option>
                           <option value="2020">2020</option>
                         </select>
-                        <div class="pointer-events-none absolute lg:top-[23%] top-[18px] lg:right-[13px] right-[7px] flex items-center px-2 text-white">
-                          <img src={icon_big} className='w-[80%]' alt="Dropdown arrow " class="w-4 h-4" />
+                        <div class="pointer-events-none absolute lg:top-[27%] top-[17px] lg:right-[13px] right-[7px] flex items-center px-2 text-white">
+                          <img src={icon_big} className='lg:w-[95%] w-[75%] ' alt="Dropdown arrow " />
                         </div>
                       </div>
           </div>
@@ -74,7 +74,7 @@ const StateOfUsa = () => {
               </div>
             </Slider>
 
-            <div className=" absolute lg:bottom-[-10px] lg:right-[30px] right-[120px] ">
+            <div className=" absolute lg:bottom-[-10px] lg:right-[30px] right-[90px] ">
               <div className="lg:flex lg:justify-between lg:w-[100%] w-full lg:mx-0">
                 <div className="flex items-center justify-center ">
                   <div className="">

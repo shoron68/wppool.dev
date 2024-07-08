@@ -40,12 +40,12 @@ const Graph = () => {
 
 
   return (
-    <div id='inedx' className="bg-[#F5F5F5] pt-[60px] lg:mx-0 mx-[10px]" >
+    <div id='inedx' className="bg-[#F5F5F5] pt-[60px] " >
       <Container>
         <div className="bg-[#FFFFFF] pt-[20px]">
 
 
-          <div className="w-[98%] mx-auto">
+          <div className="w-[98%] lg:mx-auto mx-[10px]">
             <div className="lg:flex pt-[50px] lg:justify-between relative">
               <div className="lg:w-[20%] ">
                 <div className="bg-[#EFF3F6] lg:h-[550px] lg:top-[0px] top-[90px] px-[10px] py-[10px] absolute z-20">
@@ -134,12 +134,12 @@ const Graph = () => {
 
 
                     <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px] lg:mx-[20px] mx-[10px]">
-                      <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
+                      <div className="flex justify-between items-center lg:w-[210px] lg:mx-[7px] mx-[11px]">
                         <div className="w-[30%] pr-[40px] ">
                           <h3 className='lg:text-[30px] text-[16px] text-[#6F34A1] font-natsreguler'>+26.6%</h3>
                         </div>
                         <div className="w-[29%]">
-                          <h4 className='lg:text-[12px] text-[8px] font-messinareguler text-[#191618] lg;leading-[120%] lg:border-r-[5px] border-r-[2px] border-[#6F34A1] ' >Twitter Index</h4>
+                          <h4 className='lg:text-[12px] text-[8px] font-messinareguler text-[#191618] lg;leading-[120%] lg:border-r-[5px] border-r-[2px] border-[#6F34A1]  ' >Twitter Index</h4>
                         </div>
                       </div>
                     </div>
@@ -151,9 +151,9 @@ const Graph = () => {
 
 
                 <div className="lg:flex justify-between">
-                  <div className="flex justify-between lg:pb-0 pb-[20px]">
-                    <div className="w-[40%] lg:flex">
-                      <div class="relative inline-block w-[174px] h-[26px]">
+                  <div className="w-[38%] flex justify-between">
+                  <div className="">
+                  <div class="relative inline-block lg:w-[174px] w-[160px] h-[26px]">
                         <select name="Types of IPO" class="drop_a_c appearance-none w-full h-full pl-[10px] pr-[30px] text-[12px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-messinareguler ">
                         <option value="Types of IPO ">Types of IPO </option>
                           <option value="Types of IPO ">Types of IPO </option>
@@ -164,52 +164,54 @@ const Graph = () => {
                           <img src={icon} alt="Dropdown arrow" class="w-4 h-4" />
                         </div>
                       </div>
+                  </div>
+                  <div className="lg:ml-0 ml-[17px]">
+                  <div class="relative inline-block lg:w-[174px] w-[160px] h-[26px]">
+                        <select name="Types of IPO" class="drop_a_c appearance-none w-full h-full pl-[10px] pr-[30px] text-[12px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-messinareguler ">
+                        <option value="Types of IPO ">Types of IPO </option>
+                          <option value="Types of IPO ">Types of IPO </option>
+                          <option value="Types of IPO ">Types of IPO </option>
+                          <option value="Types of IPO ">Types of IPO </option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
+                          <img src={icon} alt="Dropdown arrow" class="w-4 h-4" />
+                        </div>
+                      </div>
+                  </div> 
+                  </div>
 
-                      <div className="lg:pl-[18px] lg:pt-0 pt-[10px]">
-                      <div class="relative inline-block w-[174px] h-[26px]">
-                        <select name="Types of IPO" class="drop_a_c appearance-none w-full h-full pl-[10px] pr-[30px] text-[12px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-messinareguler ">
-                        <option value="Types of IPO ">Types of IPO </option>
-                          <option value="Types of IPO ">Types of IPO </option>
-                          <option value="Types of IPO ">Types of IPO </option>
-                          <option value="Types of IPO ">Types of IPO </option>
-                        </select>
-                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
-                          <img src={icon} alt="Dropdown arrow" class="w-4 h-4" />
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                    <div className=" active-button">
-                      <div className="py-[8px] w-[200px]  bg-[#EFF3F6] rounded-[124px]">
+                  <div className="lg:w-[21.7%] w-full lg:pt-0 pt-[15px] lg:block flex lg:justify-start justify-center">
+                  <div className=" active-button">
+                      <div className="lg:py-[8px] py-[6px] lg:w-[200px] w-[160px] lg:mr-0 mr-[37px]  bg-[#EFF3F6] lg:rounded-[124px] rounded-[10px]">
                         <div className="flex justify-center items-center">
                           <button
                             onClick={() => setActiveBtn('1Y')}
-                            className={` text-[12px] text-[#748DA1] font-messinareguler ${activeBtn === '1Y' ? 'bg-[#2042B6] py-[px] px-[8px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
+                            className={` lg:text-[12px] text-[10px] text-[#748DA1] font-messinareguler ${activeBtn === '1Y' ? 'bg-[#2042B6] py-[0px] lg:px-[8px] px-[6px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
                             aria-selected={activeBtn === '1Y'}>
                             1Y
                           </button>
                           <button
                             onClick={() => setActiveBtn('YTD')}
-                            className={`mx-[15px] text-[12px] text-[#748DA1] font-messinareguler ${activeBtn === 'YTD' ? 'bg-[#2042B6] py-[px] px-[8px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
+                            className={`mx-[15px] lg:text-[12px] text-[10px] text-[#748DA1] font-messinareguler ${activeBtn === 'YTD' ? 'bg-[#2042B6] py-[0px] lg:px-[8px] px-[6px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
                             aria-selected={activeBtn === 'YTD'}>
                             YTD
                           </button>
                           <button
                             onClick={() => setActiveBtn('6M')}
-                            className={` text-[12px] text-[#748DA1] font-messinareguler ${activeBtn === '6M' ? 'bg-[#2042B6] py-[px] px-[8px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
+                            className={` lg:text-[12px] text-[10px] text-[#748DA1] font-messinareguler ${activeBtn === '6M' ? 'bg-[#2042B6] py-[0px] lg:px-[8px] px-[6px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
                             aria-selected={activeBtn === '6M'}>
                             6M
                           </button>
                           <button
                             onClick={() => setActiveBtn('1M')}
-                            className={`mx-[15px] text-[12px] text-[#748DA1] font-messinareguler ${activeBtn === '1M' ? 'bg-[#2042B6] py-[px] px-[8px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
+                            className={`mx-[15px] lg:text-[12px] text-[10px] text-[#748DA1] font-messinareguler ${activeBtn === '1M' ? 'bg-[#2042B6] py-[0px] lg:px-[8px] px-[6px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
                             aria-selected={activeBtn === '1M'}>
                             1M
                           </button>
 
                           <button
                             onClick={() => setActiveBtn('1W')}
-                            className={` text-[12px] text-[#748DA1] font-messinareguler ${activeBtn === '1W' ? 'bg-[#2042B6] py-[px] px-[8px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
+                            className={` lg:text-[12px] text-[10px] text-[#748DA1] font-messinareguler ${activeBtn === '1W' ? 'bg-[#2042B6] py-[0px] lg:px-[8px] px-[6px] rounded-[10px]  text-[#fff]' : 'bg-transparent'}`}
                             aria-selected={activeBtn === '1W'}>
                             1W
                           </button>

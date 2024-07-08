@@ -13,9 +13,9 @@ import group10 from "../assets/group10.png"
 
 const Potential = () => {
   return (
-        <div id='potential' className="bg-[#F5F5F5] lg:mx-0 mx-[10px]">
+        <div id='potential' className="bg-[#F5F5F5] ">
     <Container>
-        <div className="lg:w-[1180px] mx-auto">
+        <div className="lg:w-[1180px] lg:mx-auto mx-[10px]">
         <div className="lg:pt-[151px] pt-[50px] lg:pb-[155px] pb-[50px]">
           <div className=" pb-[26px]">
             <h2 className='lg:text-[48px] text-[24px] text-[#191618] pb-[18px] font-natsreguler'>Potential Future Listings</h2>

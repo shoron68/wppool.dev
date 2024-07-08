@@ -7,9 +7,10 @@ import { MdArrowDropDown,MdOutlineSearch } from "react-icons/md";
 
 const CompanyTable = () => {
   return (
-    <div id='company' className="bg-[#F5F5F5] lg:mx-0 mx-[10px]">
+    <div id='company' className="bg-[#F5F5F5] ">
 <Container className="py-[60px] ">
-        <div className=" bg-[#FFFFFF] rounded-[20px] shadow-2xl ">
+        <div className="lg:mx-0 mx-[10px]">
+        <div className=" bg-[#FFFFFF] lg:rounded-[20px] shadow-2xl ">
             <div className=" w-[95%] mx-auto lg:flex justify-between items-center lg:pt-[53px] pt-[15px] pb-[20px] lg:pb-[64px]">
                 <div className="">
                 <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler '>All Companies</h2>
@@ -25,7 +26,7 @@ const CompanyTable = () => {
                     </div>
                 </div>
             </div>
-        <div class="relative overflow-x-auto shadow-md rounded-[18px]">
+        <div class="relative overflow-x-auto shadow-md lg:rounded-[18px]">
             <table class="w-[95%] mx-auto text-sm text-left rtl:text-right text-[#000000]  dark:text-gray-400 mb-[20px]">
                 <thead class="text-xs bg-[#FFFFFF] dark:bg-gray-700 dark:text-gray-400">
                     <tr>
@@ -377,12 +378,13 @@ const CompanyTable = () => {
         <div className="flex justify-center pt-[40px]">
 
             <div className="">
-                <button className='lg:text-[16px] text-[8px] lg:py-[18px] py-[10px] lg:px-[19px] px-[10px] bg-[#2042B6]  rounded-[124px] text-[#fff] font-messinareguler hover:bg-[#fff] hover:text-[#2042B6] duration-300'>Download ‘All Companies’ Data</button>
+                <button className='lg:text-[16px] text-[11px] lg:py-[18px] py-[10px] lg:px-[19px] px-[10px] bg-[#2042B6]  rounded-[124px] text-[#fff] font-messinareguler hover:bg-[#fff] hover:text-[#2042B6] duration-300'>Download ‘All Companies’ Data</button>
             </div>
             <div className=" ml-[12px]">
-                <button className='lg:text-[16px] text-[8px] lg:py-[18px] py-[10px] px-[31px] bg-[#2042B6]  rounded-[124px] text-[#fff] font-messinareguler hover:bg-[#fff] hover:text-[#2042B6] duration-300'>View Methodology</button>
+                <button className='lg:text-[16px] text-[11px] lg:py-[18px] py-[10px] px-[31px] bg-[#2042B6]  rounded-[124px] text-[#fff] font-messinareguler hover:bg-[#fff] hover:text-[#2042B6] duration-300'>View Methodology</button>
             </div>
 
+        </div>
         </div>
         
             </Container>

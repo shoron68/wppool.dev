@@ -5,9 +5,9 @@ import { FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div id='footer' className='bg-[#E6E6E6] pt-[58px] mx-[10px] lg:mx-0'>
+        <div id='footer' className='bg-[#E6E6E6] pt-[58px] '>
             <Container>
-                <div className="lg:w-[1180px] lg:mx-auto ">
+                <div className="lg:w-[1180px] lg:mx-auto mx-[10px] ">
                     <div className="lg:flex">
                         <div className="lg:w-[454px] w-full">
                             <h4 className='lg:text-[36px] text-[24px] lg:text-start text-center text-[#000000] leading-[136%] font-natsreguler '>Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.</h4>
@@ -31,7 +31,7 @@ const Footer = () => {
                             </div>
 
 
-                            <div className="lg:ml-[116px] w-[70%]  lg:w-[303px]">
+                            <div className="lg:ml-[116px]  w-[70%]  lg:w-[303px]">
                             <div className=" border-b-[1px] border-[#9FA0A1] lg:pb-[30px]">
                                 <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>Cambridge</h3>
                                 <div className="w-[213px] h-[84px]">
@@ -40,16 +40,16 @@ const Footer = () => {
                             </div>
 
 
-                            <div className=" border-b-[1px] border-[#9FA0A1] lgpb-[30px]">
+                            <div className=" border-b-[1px] border-[#9FA0A1] lg:pt-[24px] lg:pb-[30px]">
                                 <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>London</h3>
                                 <div className="lg:w-[303px] lg:h-[56px]">
-                                    <span className='lg:text-[20px] text-[16px] leading-[140%] text-[#191618] font-messinareguler'>Suite 292 903 Stehr Streets,
+                                    <span className='lg:text-[20px]  text-[16px] leading-[140%] text-[#191618] font-messinareguler'>Suite 292 903 Stehr Streets,
                                         Langworthtown, SC 94577-9465</span>
                                 </div>
                             </div>
 
 
-                            <div className=" border-b-[1px] border-[#9FA0A1] lg:pb-[30px]">
+                            <div className=" border-b-[1px] border-[#9FA0A1] lg:pt-[24px] lg:pb-[30px]">
                                 <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>San Francisco</h3>
                                 <div className="w-[238px] h-[84px]">
                                     <span className='lg:text-[20px] text-[16px] leading-[140%] text-[#191618] font-messinareguler'>19837 Gilberto Lodge,

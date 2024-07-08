@@ -20,7 +20,7 @@ const Stories = () => {
         <div className=" ">
 
 
-        <div className="pt-[94px] lg:pt-[100px] lg:flex justify-between">
+        <div className="pt-[62px] lg:pt-[100px] lg:flex justify-between">
 
 
             <div className="flex justify-center lg:justify-start">
