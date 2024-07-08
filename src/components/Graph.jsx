@@ -155,10 +155,10 @@ const Graph = () => {
                   <div className="">
                   <div class="relative inline-block lg:w-[174px] w-[160px] h-[26px]">
                         <select name="Types of IPO" class="drop_a_c appearance-none w-full h-full pl-[10px] pr-[30px] text-[12px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-messinareguler ">
-                        <option value="Types of IPO ">Types of IPO </option>
-                          <option value="Types of IPO ">Types of IPO </option>
-                          <option value="Types of IPO ">Types of IPO </option>
-                          <option value="Types of IPO ">Types of IPO </option>
+                        <option value="Sectors ">Sectors </option>
+                          <option value="Sectors ">Sectors </option>
+                          <option value="Sectors ">Sectors </option>
+                          <option value="Sectors ">Sectors </option>
                         </select>
                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-white">
                           <img src={icon} alt="Dropdown arrow" class="w-4 h-4" />

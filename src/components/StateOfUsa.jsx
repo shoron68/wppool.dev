@@ -39,23 +39,23 @@ const StateOfUsa = () => {
   }
 
   return (
-    <div id='state' className='bg-[#F5F5F5] '>
+    <div id='state' className='bg-[#F5F5F5] lg:pt-0 pt-[110px] '>
       <Container>
-        
+
         <div className='relative lg:mx-0 mx-[10px]'>
           <div className='lg:pl-[32px] pl-[5px]'>
             <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>State of USA</h2>
             <div className="relative inline-block pb-[35px] ">
-                        <select name="2024" className=" drop_a_c_year lg:text-[40px] text-[24px] lg:h-[58px] h-[40px] w-[150px] lg:w-[200px] lg:leading-[42px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-natsreguler ">
-                        <option value="2023">2023 </option>
-                          <option value="2022">2022</option>
-                          <option value="2021">2021 </option>
-                          <option value="2020">2020</option>
-                        </select>
-                        <div class="pointer-events-none absolute lg:top-[27%] top-[17px] lg:right-[13px] right-[7px] flex items-center px-2 text-white">
-                          <img src={icon_big} className='lg:w-[95%] w-[75%] ' alt="Dropdown arrow " />
-                        </div>
-                      </div>
+              <select name="2024" className=" drop_a_c_year lg:text-[40px] text-[24px] lg:h-[58px] h-[40px] w-[150px] lg:w-[200px] lg:leading-[42px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-natsreguler ">
+                <option value="2023">2023 </option>
+                <option value="2022">2022</option>
+                <option value="2021">2021 </option>
+                <option value="2020">2020</option>
+              </select>
+              <div class="pointer-events-none absolute lg:top-[27%] top-[17px] lg:right-[13px] right-[7px] flex items-center px-2 text-white">
+                <img src={icon_big} className='lg:w-[95%] w-[75%] ' alt="Dropdown arrow " />
+              </div>
+            </div>
           </div>
           <div className=' absolute bottom-[-80px] lg:right-0'>
             <img src={bgimg} className='lg:w-full w-[80%]' alt='' />

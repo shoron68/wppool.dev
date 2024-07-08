@@ -43,20 +43,20 @@ const Menu = () => {
                                 {cateShow &&
                                     <div className="lg:w-[350px] w-full pt-[30px] pb-[38px] lg:pl-[20px] pl-[50px] bg-[#FFFFFF] absolute  top-[-5px] right-[-35px] rounded-[18px] z-50">
                                         <div className="flex items-center pt-[20px]">
-                                            <div className=" p-[16px] border-[2px] rounded-full text-[#fff] bg-[#AFCD80] text-[21px] ">
+                                            <div className=" p-[16px] border-[2px] rounded-full text-[#fff] bg-[#AFCD80] text-[21px] cursor-pointer ">
                                                 <IoShareSocial />
                                             </div>
                                             <div className="">
                                                 <button className='py-[17px] px-[16px] border-[2px] bg-[#2042B6] rounded-[40px] mr-[24px] text-[#fff]  text-[12px] font-messinareguler'>Download the 2024 Report</button>
                                             </div>
-                                            <div onClick={() => setCateShow(!cateShow)} className="ml-[-10px]">
+                                            <div onClick={() => setCateShow(!cateShow)} className="ml-[-10px] cursor-pointer">
                                                 <RxCross2 className='text-[#191618] text-[25px]' />
                                             </div>
                                         </div>
 
                                         <div className="">
                                             <ul>
-                                                <li  className='text-[18px] font-messinareguler text-[#191618] pt-[33px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#inedx">The WPPOOL Index</a></li>
+                                                <li className='text-[18px] font-messinareguler text-[#191618] pt-[33px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#inedx">The WPPOOL Index</a></li>
                                                 <li className='text-[18px] font-messinareguler text-[#191618] pt-[24px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#company">All Companies</a></li>
                                                 <li className='text-[18px] font-messinareguler text-[#191618] pt-[24px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'> <a href="#potential">Potential Future Listings</a></li>
                                                 <li className='text-[18px] font-messinareguler text-[#191618] pt-[24px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#state">State of USA</a></li>
@@ -71,14 +71,14 @@ const Menu = () => {
                                 }
 
                                 <div className="flex items-center lg:justify-end justify-center pt-[10px] lg:pt-0 mr-[10px]">
-                                    <div className="lg:p-[14px] p-[10px] mr-[12px] border-[2px] border-[#AFCD80] rounded-full text-[21px] text-[#191618] cursor-pointer hover:bg-[#AFCD80] duration-500">
+                                    <div className="lg:p-[14px] p-[10px] mr-[12px] border-[2px] border-[#AFCD80] rounded-full text-[21px] text-[#191618] cursor-pointer hover:bg-[#AFCD80] duration-500 ">
                                         <IoShareSocial />
                                     </div>
                                     <div className="lg:py-[17px] py-[12px] lg:px-[16px] px-[12px] border-[2px] border-[#115CD9] rounded-[40px] mr-[24px] hover:bg-[#115CD9] hover:text-[#fff] text-[#191618] text-[12px] font-messinareguler duration-500">
                                         <button>Download the 2024 Report</button>
                                     </div>
                                     <div className="text-[21px] text-[#191618]">
-                                        <div onClick={() => setCateShow(!cateShow)} className="text-[21px] text-[#191618]">
+                                        <div onClick={() => setCateShow(!cateShow)} className="text-[21px] text-[#191618] cursor-pointer">
                                             <FaBars />
                                         </div>
                                     </div>
@@ -102,23 +102,23 @@ const Menu = () => {
                             </div>
                             <div className="lg:w-[24%] w-full  ">
 
-                            {cateShow &&
+                                {cateShow &&
                                     <div className="lg:w-[350px] w-full pt-[30px] pb-[38px] lg:pl-[20px] pl-[50px] bg-[#FFFFFF] absolute  lg:top-[-10px] top-0 right-[-35px] rounded-[18px] z-50">
                                         <div className="flex items-center ">
-                                            <div className=" p-[16px] border-[2px] rounded-full text-[#fff] bg-[#AFCD80] text-[21px] mr-[12px]">
+                                            <div className=" p-[16px] border-[2px] rounded-full text-[#fff] bg-[#AFCD80] text-[21px] mr-[12px] cursor-pointer">
                                                 <IoShareSocial />
                                             </div>
                                             <div className="">
                                                 <button className='py-[17px] px-[16px] border-[2px] bg-[#2042B6] rounded-[40px] mr-[24px] text-[#fff]  text-[12px] font-messinareguler'>Download the 2024 Report</button>
                                             </div>
-                                            <div onClick={() => setCateShow(!cateShow)} className="ml-[-10px]">
+                                            <div onClick={() => setCateShow(!cateShow)} className="ml-[-10px] cursor-pointer">
                                                 <RxCross2 className='text-[#191618] text-[25px]' />
                                             </div>
                                         </div>
 
                                         <div className="">
-                                        <ul>
-                                                <li  className='text-[18px] font-messinareguler text-[#191618] pt-[33px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#inedx">The WPPOOL Index</a></li>
+                                            <ul>
+                                                <li className='text-[18px] font-messinareguler text-[#191618] pt-[33px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#inedx">The WPPOOL Index</a></li>
                                                 <li className='text-[18px] font-messinareguler text-[#191618] pt-[24px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#company">All Companies</a></li>
                                                 <li className='text-[18px] font-messinareguler text-[#191618] pt-[24px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'> <a href="#potential">Potential Future Listings</a></li>
                                                 <li className='text-[18px] font-messinareguler text-[#191618] pt-[24px] hover:text-[#2042B6] duration-300 cursor-pointer scroll-smooth'><a href="#state">State of USA</a></li>
@@ -136,13 +136,13 @@ const Menu = () => {
 
 
                                 <div className="flex  items-center justify-center pt-[5px] lg:pt-0">
-                                    <div className=" lg:p-[14px] p-[10px] border-[2px] rounded-full text-[#fff] text-[21px] mr-[12px]">
+                                    <div className=" lg:p-[14px] p-[10px] border-[2px] rounded-full text-[#fff] text-[21px] mr-[12px] cursor-pointer">
                                         <IoShareSocial />
                                     </div>
                                     <div className="">
                                         <button className='lg:py-[17px] py-[12px] lg:px-[16px] px-[12px] border-[2px]  rounded-[40px] mr-[24px] text-[#fff]  text-[12px] font-messinareguler'>Download the 2024 Report</button>
                                     </div>
-                                    <div onClick={() => setCateShow(!cateShow)} className="text-[21px] text-[#fff]">
+                                    <div onClick={() => setCateShow(!cateShow)} className="text-[21px] text-[#fff] cursor-pointer">
                                         <FaBars />
                                     </div>
                                 </div>

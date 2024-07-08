@@ -16,13 +16,8 @@ const Stories = () => {
                 <span className='lg:text-[20px] text-[16px] text-[#191618] font-messinabook'>The latest news and updates</span>
             </div>
         </div>
-
         <div className=" ">
-
-
         <div className="pt-[62px] lg:pt-[100px] lg:flex justify-between">
-
-
             <div className="flex justify-center lg:justify-start">
             <div className=" lg:w-[380px]  bg-[#fff] rounded-[8px] relative  mr-[20px]" >
                 <div className=" absolute lg:top-[-50px] top-[-30px] left-[10px]">
@@ -36,8 +31,6 @@ const Stories = () => {
                     </div>
                 </div>
             </div>
-
-            
             <div className=" lg:w-[380px] bg-[#fff] rounded-[8px] relative " >
                 <div className="absolute lg:top-[-50px] top-[-30px] left-[10px]">
                     <img src={storiesimg1} className='lg:w-full w-[50%]' alt="" />
@@ -68,8 +61,6 @@ const Stories = () => {
             </div>
         </div>
         <div className="pt-[50px] pb-[40px] lg:pt-[100px] lg:flex justify-between">
-
-
             <div className="flex justify-center lg:justify-start">
             <div className=" lg:w-[380px]  bg-[#fff] rounded-[8px] relative  mr-[20px]" >
                 <div className=" absolute lg:top-[-50px] top-[-30px] left-[10px]">
@@ -83,8 +74,6 @@ const Stories = () => {
                     </div>
                 </div>
             </div>
-
-            
             <div className=" lg:w-[380px] bg-[#fff] rounded-[8px] relative " >
                 <div className="absolute lg:top-[-50px] top-[-30px] left-[10px]">
                     <img src={storiesimg1} className='lg:w-full w-[50%]' alt="" />
@@ -98,7 +87,6 @@ const Stories = () => {
                 </div>
             </div>
             </div>
-
             <div className="pt-[50px] lg:pt-0 flex justify-center">
             <div className="lg:w-[380px] w-[150px] bg-[#fff] rounded-[8px] relative" >
                 <div className=" absolute lg:top-[-50px] top-[-30px] left-[10px]">

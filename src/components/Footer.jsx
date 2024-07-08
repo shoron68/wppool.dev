@@ -12,68 +12,56 @@ const Footer = () => {
                         <div className="lg:w-[454px] w-full">
                             <h4 className='lg:text-[36px] text-[24px] lg:text-start text-center text-[#000000] leading-[136%] font-natsreguler '>Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.</h4>
                         </div>
-
                         <div className="lg:w-[84px] lg:ml-[130px] lg:pt-0 pt-[20px]">
                             <div className="w-full flex justify-between">
-
-                            <div className="lg:w-[70%] w-[30%]">
-                                <div className="">
-                                    <p className='text-[20px] lg:w-[84px] text-[#9FA0A1] font-messinabold'>Jump to</p>
-                                </div>
-                                <div className="">
-                                    <li className='text-[20px] lg:w-[84px] text-[#115CD9] pt-[16px] font-neue'><a href="#inedx">About Us</a></li>
-                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="#portfolio">Portfolio</a></li>
-                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">News</a></li>
-                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">Stories</a></li>
-                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="#stories">Jobs</a></li>
-                                    <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href=""></a></li>
-                                </div>
-                            </div>
-
-
-                            <div className="lg:ml-[116px]  w-[70%]  lg:w-[303px]">
-                            <div className=" border-b-[1px] border-[#9FA0A1] lg:pb-[30px]">
-                                <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>Cambridge</h3>
-                                <div className="w-[213px] h-[84px]">
-                                    <span className='lg:text-[20px] text-[16px] leading-[140%] text-[#191618] font-messinareguler'>70728 Yost Burg,North Magdaleneview,UT 97952-2814</span>
-                                </div>
-                            </div>
-
-
-                            <div className=" border-b-[1px] border-[#9FA0A1] lg:pt-[24px] lg:pb-[30px]">
-                                <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>London</h3>
-                                <div className="lg:w-[303px] lg:h-[56px]">
-                                    <span className='lg:text-[20px]  text-[16px] leading-[140%] text-[#191618] font-messinareguler'>Suite 292 903 Stehr Streets,
-                                        Langworthtown, SC 94577-9465</span>
-                                </div>
-                            </div>
-
-
-                            <div className=" border-b-[1px] border-[#9FA0A1] lg:pt-[24px] lg:pb-[30px]">
-                                <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>San Francisco</h3>
-                                <div className="w-[238px] h-[84px]">
-                                    <span className='lg:text-[20px] text-[16px] leading-[140%] text-[#191618] font-messinareguler'>19837 Gilberto Lodge,
-                                        Lake Kendallville,
-                                        Colorado - 97392, Bhutan</span>
-                                </div>
-                            </div>
-
-
-                            <div className=" lg:pt-[24px]">
-                                <div className="flex lg:justify-start justify-center">
-                                    <div className="text-[30px] text-[#9FA0A1] pr-[21px]">
-                                        <a href=""><FaLinkedin /></a>
+                                <div className="lg:w-[70%] w-[30%]">
+                                    <div className="">
+                                        <p className='text-[20px] lg:w-[84px] text-[#9FA0A1] font-messinabold'>Jump to</p>
                                     </div>
-                                    <div className="text-[30px] text-[#9FA0A1]">
-                                        <a href=""><FaTwitterSquare /></a>
+                                    <div className="">
+                                        <li className='text-[20px] lg:w-[84px] text-[#115CD9] pt-[16px] font-neue'><a href="#inedx">About Us</a></li>
+                                        <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="#portfolio">Portfolio</a></li>
+                                        <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">News</a></li>
+                                        <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="">Stories</a></li>
+                                        <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href="#stories">Jobs</a></li>
+                                        <li className='text-[20px] text-[#115CD9] pt-[16px] font-neue'><a href=""></a></li>
+                                    </div>
+                                </div>
+                                <div className="lg:ml-[116px]  w-[70%]  lg:w-[303px]">
+                                    <div className=" border-b-[1px] border-[#9FA0A1] lg:pb-[30px]">
+                                        <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>Cambridge</h3>
+                                        <div className="w-[213px] h-[84px]">
+                                            <span className='lg:text-[20px] text-[16px] leading-[140%] text-[#191618] font-messinareguler'>70728 Yost Burg,North Magdaleneview,UT 97952-2814</span>
+                                        </div>
+                                    </div>
+                                    <div className=" border-b-[1px] border-[#9FA0A1] lg:pt-[24px] lg:pb-[30px]">
+                                        <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>London</h3>
+                                        <div className="lg:w-[303px] lg:h-[56px]">
+                                            <span className='lg:text-[20px]  text-[16px] leading-[140%] text-[#191618] font-messinareguler'>Suite 292 903 Stehr Streets,
+                                                Langworthtown, SC 94577-9465</span>
+                                        </div>
+                                    </div>
+                                    <div className=" border-b-[1px] border-[#9FA0A1] lg:pt-[24px] lg:pb-[30px]">
+                                        <h3 className='lg:text-[20px] text-[16px] text-[#191618] font-messinabold'>San Francisco</h3>
+                                        <div className="w-[238px] h-[84px]">
+                                            <span className='lg:text-[20px] text-[16px] leading-[140%] text-[#191618] font-messinareguler'>19837 Gilberto Lodge,
+                                                Lake Kendallville,
+                                                Colorado - 97392, Bhutan</span>
+                                        </div>
+                                    </div>
+                                    <div className=" lg:pt-[24px] pt-[8px]">
+                                        <div className="flex ">
+                                            <div className="text-[30px] text-[#9FA0A1] pr-[21px]">
+                                                <a href=""><FaLinkedin /></a>
+                                            </div>
+                                            <div className="text-[30px] text-[#9FA0A1]">
+                                                <a href=""><FaTwitterSquare /></a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                            </div>
-                        </div>
-
-                        
                     </div>
                     <div className="lg:mt-[-40px] mt-[20px]">
                         <div className="">
