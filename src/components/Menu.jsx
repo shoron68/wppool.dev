@@ -41,8 +41,8 @@ const Menu = () => {
                             </div>
                             <div className="lg:w-[24%] w-full">
                                 {cateShow &&
-                                    <div className="w-[350px] pt-[30px] pb-[38px] pl-[20px] bg-[#FFFFFF] absolute top-[-5px] right-[-35px] rounded-[18px] z-50">
-                                        <div className="flex items-center">
+                                    <div className="lg:w-[350px] w-full pt-[30px] pb-[38px] lg:pl-[20px] pl-[50px] bg-[#FFFFFF] absolute  top-[-5px] right-[-35px] rounded-[18px] z-50">
+                                        <div className="flex items-center pt-[20px]">
                                             <div className=" p-[16px] border-[2px] rounded-full text-[#fff] bg-[#AFCD80] text-[21px] ">
                                                 <IoShareSocial />
                                             </div>
@@ -103,7 +103,7 @@ const Menu = () => {
                             <div className="lg:w-[24%] w-full  ">
 
                             {cateShow &&
-                                    <div className="w-[350px] pt-[30px] pb-[38px] pl-[20px] bg-[#FFFFFF] absolute top-[-5px] right-[-35px] rounded-[18px] z-50">
+                                    <div className="lg:w-[350px] w-full pt-[30px] pb-[38px] lg:pl-[20px] pl-[50px] bg-[#FFFFFF] absolute  lg:top-[-10px] top-0 right-[-35px] rounded-[18px] z-50">
                                         <div className="flex items-center ">
                                             <div className=" p-[16px] border-[2px] rounded-full text-[#fff] bg-[#AFCD80] text-[21px] mr-[12px]">
                                                 <IoShareSocial />

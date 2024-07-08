@@ -8,6 +8,7 @@ import sliderimg2 from '../assets/slider2.png';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import icon_big from "../assets/drop_big.png"
 
 const StateOfUsa = () => {
   const settings = {
@@ -42,14 +43,19 @@ const StateOfUsa = () => {
       <Container>
         
         <div className='relative'>
-          <div className=''>
+          <div className='lg:pl-[32px] pl-[5px]'>
             <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>State of USA</h2>
-            <select className='lg:w-[200px] lg:h-[58px] leading-[26px] lg:text-[34px] text-[14px] bg-[#2042B6] rounded-[124px] pt-0 pb-0 px-[10px] text-[#FFFFFF] font-natsreguler' name='year' id='year'>
-              <option value='2024'>2024</option>
-              <option value='2023'>2023</option>
-              <option value='2022'>2022</option>
-              <option value='2021'>2021</option>
-            </select>
+            <div class="relative inline-block pb-[35px] ">
+                        <select name="2024" class=" drop_a_c_year lg:text-[40px] text-[24px] lg:h-[58px] h-[40px] w-[150px] lg:w-[200px] lg:leading-[42px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-natsreguler ">
+                        <option value="2023">2023 </option>
+                          <option value="2022">2022</option>
+                          <option value="2021">2021 </option>
+                          <option value="2020">2020</option>
+                        </select>
+                        <div class="pointer-events-none absolute lg:top-[23%] top-[18px] lg:right-[13px] right-[7px] flex items-center px-2 text-white">
+                          <img src={icon_big} className='w-[80%]' alt="Dropdown arrow " class="w-4 h-4" />
+                        </div>
+                      </div>
           </div>
           <div className=' absolute bottom-[-80px] lg:right-0'>
             <img src={bgimg} className='lg:w-full w-[80%]' alt='' />
@@ -68,8 +74,8 @@ const StateOfUsa = () => {
               </div>
             </Slider>
 
-            <div className=" absolute lg:bottom-[-10px] lg:left-[195px]">
-              <div className="lg:flex lg:justify-between lg:w-[100%] w-full lg:mx-0 mx-[50%] ">
+            <div className=" absolute lg:bottom-[-10px] lg:right-[30px] right-[120px] ">
+              <div className="lg:flex lg:justify-between lg:w-[100%] w-full lg:mx-0">
                 <div className="flex items-center justify-center ">
                   <div className="">
                     <p className='lg:text-[16px] text-[12px] text-[#191618] font-messinareguler'>Pages</p>

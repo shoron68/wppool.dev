@@ -69,3 +69,11 @@ html {
 .scroll-to-top svg{
     margin: 0 auto; 
   }
+
+  .drop_a_c {
+    background-image: none !important;
+    padding: 0 0 0 9px !important;
+  } 
+  .drop_a_c_year{
+    background-image: none !important;
+  }
