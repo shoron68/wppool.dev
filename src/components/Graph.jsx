@@ -155,7 +155,7 @@ const Graph = () => {
 
 
                 <div className="lg:flex justify-between">
-                  <div className="lg:w-[38%] w-[70%] lg:mx-0 mx-auto flex justify-between">
+                  <div className="lg:w-[38%] w-full lg:mx-0 mx-auto flex justify-between">
                   <div className="">
                   <div class="relative inline-block lg:w-[174px] w-[160px] h-[26px]">
                         <select name="Types of IPO" class="drop_a_c appearance-none w-full h-full pl-[10px] pr-[30px] text-[12px] bg-[#2042B6] rounded-[124px] text-[#FFFFFF] font-messinareguler ">
