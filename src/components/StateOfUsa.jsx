@@ -67,8 +67,9 @@ const StateOfUsa = () => {
   return (
     <div id='state' className='bg-[#F5F5F5] lg:pt-0 pt-[110px] '>
       <Container>
+        <div className="lg:w-[1180px]  lg:mx-auto mx-[10px]">
 
-        <div className='relative lg:mx-0 mx-[10px]'>
+        <div className='relative'>
           <div className='lg:pl-[32px] pl-[5px]'>
             <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>State of USA</h2>
             <div className="relative inline-block pb-[35px] ">
@@ -83,7 +84,7 @@ const StateOfUsa = () => {
               </div>
             </div>
           </div>
-          <div className=' absolute bottom-[-80px] lg:right-[150px]'>
+          <div className=' absolute lg:bottom-[-80px] lg:right-[150px]'>
             <img src={bgimg} className='lg:w-full w-[80%]' alt='' />
           </div>
 
@@ -100,7 +101,7 @@ const StateOfUsa = () => {
               </div>
             </Slider>
 
-            <div className=" absolute lg:bottom-[-10px] lg:right-[148px] right-[90px] ">
+            <div className=" absolute lg:bottom-[-10px] lg:right-[-40px] right-[90px] ">
               <div className="lg:flex lg:justify-between lg:w-[100%] w-full lg:mx-0">
                 <div className="flex items-center justify-center ">
                   <div className="">
@@ -117,8 +118,8 @@ const StateOfUsa = () => {
                   </div>
                 </div>
 
-                <div className="lg:ml-[585px] lg:mt-0 mt-[15px] lg:static flex justify-center">
-                  <div className="">
+                <div className="lg:ml-[500px] lg:mt-0 mt-[15px] lg:static flex justify-center">
+                  <div className="lg:mr-[70px]">
                     <button className='lg:py-[23px] py-[10px] lg:px-[20px] px-[10px] border-[2px] lg:text-[16px] text-[12px] font-messinareguler rounded-[124px] text-[#fff] bg-[#2042B6] hover:bg-[#fff] hover:text-[#2042B6] duration-500 ease-in-out hover:border-[#2042B6]'>Download the 2023 Report</button>
                   </div>
                 </div>
@@ -126,6 +127,9 @@ const StateOfUsa = () => {
             </div>
           </div>
         </div>
+
+        </div>
+
       </Container>
     </div>
   );
