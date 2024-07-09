@@ -48,14 +48,14 @@ const Graph = () => {
           <div className="w-[98%] lg:mx-auto mx-[10px]">
             <div className="lg:flex pt-[50px] lg:justify-between relative">
               <div className="lg:w-[20%] ">
-                <div className="bg-[#EFF3F6] lg:h-[550px] lg:top-[0px] top-[90px] px-[10px] py-[10px] absolute z-20">
+                <div className="bg-[#EFF3F6] lg:h-[640px] lg:top-[0px] top-[90px] px-[10px] py-[10px] absolute z-20">
                   <div className="flex">
                     <div onClick={() => setShow(!show)} className="lg:py-[12px] py-[5px] pl-[10px] pr-[60px] lg:pr-[128px] text-[#fff] bg-[#115CD9] border-[2px] hover:bg-[#fff] hover:text-[#191618] duration-300 rounded-[6px] cursor-pointer">
                       <h4 className='lg:text-[16px] text-[12px] font-natsreguler'>The Index</h4>
                     </div>
-                    {show ? <div className=" absolute lg:top-[5%] top-[11%] lg:text-[16px] text-[12px] lg:right-[12px] right-[20px] text-[#fff] hover:text-[#191618]">
+                    {show ? <div className=" absolute lg:top-[4.3%] top-[11%] lg:text-[16px] text-[12px] lg:right-[12px] right-[20px] text-[#fff] hover:text-[#191618]">
                       <RxMinus />
-                    </div> : <div className=" absolute lg:top-[5%] top-[38%] lg:text-[16px] text-[12px] right-[12px] text-[#fff] hover:text-[#191618]">
+                    </div> : <div className=" absolute lg:top-[4.3%] top-[38%] lg:text-[16px] text-[12px] right-[12px] text-[#fff] hover:text-[#191618]">
                       <FiPlus />
                     </div>}
                   </div>
