@@ -184,7 +184,7 @@ const Graph = () => {
                   </div> 
                   </div>
 
-                  <div className="lg:w-[19%] w-full lg:pt-0 pt-[15px] lg:block flex lg:justify-start justify-center">
+                  <div className="lg:w-[19%] w-full lg:pt-0 pt-[15px] lg:ml-0 ml-[10px] lg:block flex lg:justify-start justify-center">
                   <div className=" active-button">
                       <div className="lg:py-[8px] py-[6px] lg:w-[200px] w-[160px] lg:mr-0 mr-[37px]  bg-[#EFF3F6] lg:rounded-[124px] rounded-[10px]">
                         <div className="flex justify-center items-center">
