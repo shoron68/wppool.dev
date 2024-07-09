@@ -83,7 +83,7 @@ const Graph = () => {
                 </div>
               </div>
 
-              <div className="lg:w-[77%] w-full">
+              <div className="lg:w-[77%] w-full lg:mr-[10px]">
                 <div className="flex items-center">
                   <div className="">
                     <img src={union} className='lg:w-full w-[60%]' alt="Union" />
@@ -93,8 +93,9 @@ const Graph = () => {
                   </div>
                 </div>
 
-                <div className="lg:flex lg:pt-[32px] pt-[80px] pb-[21px] ">
-                  <div className=" flex">
+                <div className="lg:flex lg:justify-between lg:pt-[32px] pt-[80px] pb-[21px] ">
+                  <div className="w-[47%]">
+                  <div className=" flex justify-between">
                     <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px]">
                       <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
                         <div className="w-[30%] pr-[40px] ">
@@ -118,9 +119,11 @@ const Graph = () => {
                       </div>
                     </div>
                   </div>
+                  </div>
 
 
-                  <div className=" flex lg:pt-0 pt-[20px]">
+                  <div className="lg:w-[47%]">
+                  <div className=" flex justify-between lg:pt-0 pt-[20px]">
                     <div className="lg:py-[14px] py-[10px] bg-[#ededed] rounded-[6px]">
                       <div className="flex justify-between items-center lg:w-[210px] mx-[7px]">
                         <div className="w-[30%] pr-[40px] ">
@@ -143,6 +146,7 @@ const Graph = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
                   </div>
 
 
@@ -180,7 +184,7 @@ const Graph = () => {
                   </div> 
                   </div>
 
-                  <div className="lg:w-[21.7%] w-full lg:pt-0 pt-[15px] lg:block flex lg:justify-start justify-center">
+                  <div className="lg:w-[19%] w-full lg:pt-0 pt-[15px] lg:block flex lg:justify-start justify-center">
                   <div className=" active-button">
                       <div className="lg:py-[8px] py-[6px] lg:w-[200px] w-[160px] lg:mr-0 mr-[37px]  bg-[#EFF3F6] lg:rounded-[124px] rounded-[10px]">
                         <div className="flex justify-center items-center">
