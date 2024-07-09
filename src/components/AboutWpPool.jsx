@@ -4,7 +4,7 @@ import aboutimg from "../assets/about.png"
 
 const AboutWpPool = () => {
     return (
-        <div id='about' className='bg-[#F5F5F5] lg:pt-[120px] pt-[40px] '>
+        <div id='about' className='bg-[#F5F5F5] lg:pt-[120px] pt-[0px] '>
             <div className="lg:w-[1180px]  mb-[80px] "></div>
             <Container>
                 <div className="bg-[#fff] rounded-[12px] lg:w-[1180px] lg:mx-auto ">

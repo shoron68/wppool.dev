@@ -7,7 +7,7 @@ import { MdArrowDropDown, MdOutlineSearch } from "react-icons/md";
 
 const CompanyTable = () => {
     return (
-        <div id='company' className="bg-[#F5F5F5] lg:pt-0 pt-[90px]  ">
+        <div id='company' className="bg-[#F5F5F5] lg:pt-0 pt-[55px]  ">
             <Container className="py-[60px] ">
                 <div className="lg:mx-0 mx-[10px]">
                     <div className=" bg-[#FFFFFF] lg:rounded-[20px] shadow-2xl ">
