@@ -18,6 +18,32 @@ const StateOfUsa = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   function SampleNextArrow(props) {
@@ -57,7 +83,7 @@ const StateOfUsa = () => {
               </div>
             </div>
           </div>
-          <div className=' absolute bottom-[-80px] lg:right-0'>
+          <div className=' absolute bottom-[-80px] lg:right-[150px]'>
             <img src={bgimg} className='lg:w-full w-[80%]' alt='' />
           </div>
 
@@ -74,7 +100,7 @@ const StateOfUsa = () => {
               </div>
             </Slider>
 
-            <div className=" absolute lg:bottom-[-10px] lg:right-[30px] right-[90px] ">
+            <div className=" absolute lg:bottom-[-10px] lg:right-[148px] right-[90px] ">
               <div className="lg:flex lg:justify-between lg:w-[100%] w-full lg:mx-0">
                 <div className="flex items-center justify-center ">
                   <div className="">
