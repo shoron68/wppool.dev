@@ -2,7 +2,6 @@ import React from 'react'
 import Container from './Container'
 import img from "../assets/bnrbg2.png"
 import arrow from "../assets/arrow.png"
-import { IoArrowDown } from "react-icons/io5";
 
 const Banner = () => {
     return (

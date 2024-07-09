@@ -94,8 +94,12 @@ html {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
-    }
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+}
   }
 
   @keyframes moveUpDown {
@@ -103,8 +107,12 @@ html {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-20px);
-    }
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+}
   }
   
   .animate-moveUpDown {

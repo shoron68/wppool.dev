@@ -21,7 +21,7 @@ const TapToBottom = () => {
 
   const handleToBottom = () => {
     window.scrollTo({
-      top: document.documentElement.scrollHeight,
+      top: 730,
       behavior: 'smooth'
     });
   };
@@ -30,7 +30,7 @@ const TapToBottom = () => {
     <div
       id="scrollToBottomBtn"
       onClick={handleToBottom}
-      className="lg:p-[24px] p-[20px] rounded-full bg-[#FFFFFF] shadow-xl flex justify-center items-center duration-500 ease-in-out fixed right-[30px] bottom-[55px] cursor-pointer"
+      className="lg:p-[24px] p-[20px] rounded-full bg-[#FFFFFF] shadow-xl flex justify-center items-center duration-500 ease-in-out fixed right-[30px] bottom-[55px] cursor-pointer lg:z-0 z-50"
       style={{ display: 'none' }}
     >
       <IoArrowDown className='text-[20px] text-[#2042B6] animate-moveUpDown'/>
