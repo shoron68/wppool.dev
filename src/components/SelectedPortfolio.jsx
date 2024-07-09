@@ -21,7 +21,7 @@ import img17 from "../assets/portfolio16.png"
 
 const SelectedPortfolio = () => {
         return (
-                <div id='portfolio' className='bg-[#F5F5F5] lg:pt-[126px] pt-[140px]   pb-[58px]'>
+                <div id='portfolio' className='bg-[#F5F5F5] lg:pt-[126px] pt-[120px]   pb-[58px]'>
                         <Container>
                                 <div className="lg:w-[1180px] lg:mx-auto mx-[10px]">
                                         <div className="">

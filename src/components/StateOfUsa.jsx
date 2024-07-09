@@ -39,7 +39,7 @@ const StateOfUsa = () => {
   }
 
   return (
-    <div id='state' className='bg-[#F5F5F5] lg:pt-0 pt-[130px] '>
+    <div id='state' className='bg-[#F5F5F5] lg:pt-0 pt-[110px] '>
       <Container>
 
         <div className='relative lg:mx-0 mx-[10px]'>

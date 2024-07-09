@@ -10,7 +10,7 @@ const Stories = () => {
 
 <Container>
         <div className="lg:w-[1180px]  lg:mx-auto mx-[10px]" >
-        <div className="lg:pt-[193px] pt-[85px]">
+        <div className="lg:pt-[193px] pt-[90px]">
             <div className="">
                 <h2 className='lg:text-[48px] text-[24px] text-[#191618] font-natsreguler'>Stories & Ideas</h2>
                 <span className='lg:text-[20px] text-[16px] text-[#191618] font-messinabook'>The latest news and updates</span>
